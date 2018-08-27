@@ -191,14 +191,6 @@ L:SetGeneralLocalization({
 	name = "Gluth"
 })
 
-L:SetTimerLocalization({
-	TimerEnraged	= "Enraged!"
-})
-
-L:SetOptionLocalization({
-	TimerEnraged		= "Show timer for Enrage's duration"
-})
-
 ----------------
 --  Thaddius  --
 ----------------
@@ -384,24 +376,16 @@ L:SetOptionLocalization({
 	specwarnP2Soon	= "Show special warning 10 seconds before Kel'Thuzad engages",
 	warnAddsSoon	= "Show pre-warning for Guardians of Icecrown",
 	BlastAlarm		= "Play custom siren sound when Frost Blast is being cast",
-	ShowRange		= "Show range frame when Phase 2 starts",
-	MindControl		= "Yell when Mind Controlled",
-	YellOnFissure	= "Yell on $spell:27810"
+	ShowRange		= "Show range frame when Phase 2 starts"
 })
 
 L:SetMiscLocalization({
-	Yell = "Minions, servants, soldiers of the cold dark! Obey the call of Kel'Thuzad!",
-	Yell2 = "Pray for mercy!",
-	Yell3 = "Scream your dying breath!",
-	Yell4 = "The end is upon you",
-	KelThuzad = "Kel'Thuzad",
-	YellFissure = "Fissure on me!"
+	Yell = "Minions, servants, soldiers of the cold dark! Obey the call of Kel'Thuzad!"
 })
 
 L:SetWarningLocalization({
-	specwarnP2Soon		= "Kel'Thuzad engages in 10 Seconds",
-	warnAddsSoon		= "Guardians of Icecrown incoming soon",
-	WarningMindControl 	= "Mind controlled! CC me!"
+	specwarnP2Soon	= "Kel'Thuzad engages in 10 Seconds",
+	warnAddsSoon	= "Guardians of Icecrown incoming soon"
 })
 
 L:SetTimerLocalization({
