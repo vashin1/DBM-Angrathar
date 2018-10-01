@@ -235,9 +235,9 @@ function mod:SPELL_AURA_APPLIED(args)
 		if self.Options.PlaySoundBloopers then
 			randomNumber = math.random(1,2)
 			if randomNumber == 1 then
-				PlaySoundFile("Interface\\AddOns\\DBM-Core\\sounds\\kur.mp3", "Master")
+				PlaySoundFile("Interface\\AddOns\\DBM-Core\\sounds\\dooingk.mp3", "Master")
 			else
-				PlaySoundFile("Interface\\AddOns\\DBM-Core\\sounds\\fail.mp3", "Master")
+				PlaySoundFile("Interface\\AddOns\\DBM-Core\\sounds\\dooingk.mp3", "Master")
 			end
 		end
 	elseif args:IsSpellID(66758) then						-- Staggered Daze
@@ -246,7 +246,7 @@ function mod:SPELL_AURA_APPLIED(args)
 			if randomNumber == 1 then
 				PlaySoundFile("Interface\\AddOns\\DBM-Core\\sounds\\nap.mp3", "Master")
 			else
-				PlaySoundFile("Interface\\AddOns\\DBM-Core\\sounds\\nap2.mp3", "Master")
+				PlaySoundFile("Interface\\AddOns\\DBM-Core\\sounds\\nap.mp3", "Master")
 			end
 		end
 		timerStaggeredDaze:Start()
@@ -294,9 +294,9 @@ function mod:SPELL_CAST_START(args)
 		if self.Options.PlaySoundBloopers then
 			randomNumber = math.random(1,2)
 			if randomNumber == 1 then
-				PlaySoundFile("Interface\\AddOns\\DBM-Core\\sounds\\rzygi.mp3", "Master")
+				PlaySoundFile("Interface\\AddOns\\DBM-Core\\sounds\\nap.mp3", "Master")
 			else
-				PlaySoundFile("Interface\\AddOns\\DBM-Core\\sounds\\rzygi2.mp3", "Master")
+				PlaySoundFile("Interface\\AddOns\\DBM-Core\\sounds\\nap.mp3", "Master")
 			end
 		end
 	elseif args:IsSpellID(66818) then						-- Acidic Spew
